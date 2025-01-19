@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.7,
-          "width": 5.7
+          "drill": 0.0,
+          "height": 3.5,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "starved_thermal|133000000|91500000|9f6c9d65-ad4e-4a2c-a5af-fe0c7810671d|97556585-6a7c-4dd7-93da-c3d19ec1b94c|F.Cu",
-        "starved_thermal|141000000|108350000|9f6c9d65-ad4e-4a2c-a5af-fe0c7810671d|431c5f9f-2d54-45e7-907e-fb9d541da3d0|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -534,6 +531,10 @@
       {
         "netclass": "Default",
         "pattern": ""
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
@@ -542,7 +543,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GerberOut/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
